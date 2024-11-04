@@ -3,7 +3,10 @@ const Board = @import("board");
 const Board_options = @import("board_options"); //remember to import your options
 
 // Import the C header file
-const board_hal_lib = @cImport(@cInclude("stm32g4xx_hal.h"));
+const board_hal_lib = @cImport({
+    @cInclude("stm32g4xx_hal.h");
+    @cInclude("stdint.h");
+});
 
 pub fn main() !void {
 
