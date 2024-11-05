@@ -4,8 +4,10 @@ const Board_options = @import("board_options"); //remember to import your option
 
 // Import the C header file
 const board_hal_lib = @cImport({
-    @cInclude("stm32g4xx_hal.h");
+    // @cInclude("stm32g4xx_hal.h");
     @cInclude("stdint.h");
+    // @cInclude("stm32g4xx.h");
+    // @cInclude("system_stm32g4xx.h");
 });
 
 pub fn main() !void {
@@ -16,9 +18,9 @@ pub fn main() !void {
     print_my_board(my_board);
 
     //calling init function
-    board_hal_lib.HAL_Init();
+    //board_hal_lib.HAL_Init();
 
-    std.debug.print("\n \n", .{my_board});
+    std.debug.print("\n  {} \n", .{my_board});
 }
 
 pub inline fn print_my_board(my_board: Board.Board_list) void {

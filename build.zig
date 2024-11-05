@@ -22,8 +22,8 @@ pub fn build(b: *std.Build) !void {
     exe.addIncludePath(b.path("src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Inc")); // HAL drivers relative path
     exe.addIncludePath(b.path("src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Include")); //CMSIS relative path
     exe.addIncludePath(b.path("src/boards/STM32CubeG4/Drivers/CMSIS/Include")); //CMSIS arm/cm/sc relative path
-
-    //exe.addDefine("STM32G441xx", "1"); // DEFINE HERE THE STM that you are using!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    exe.addIncludePath(b.path("src/boards/STM32CubeG4/Drivers/CMSIS/Core/Include"));
+    //exe.addLinkerArgs(&[_][]const u8{"-T/path/to/STM32CubeG4/linker_script.ld"});
 
     //************************************************MODULE CREATION************************************************
     const board_mod = b.createModule(.{ .root_source_file = b.path("src/boards/boardType.zig") });
@@ -36,22 +36,31 @@ pub fn build(b: *std.Build) !void {
     //add the specific option for board choice, it can be called by importing "board_options"
     board_options.addOption([]const u8, "board_choice", board_choice_str); // -> we are forced to pass a []const u8, enums give problems, see here for possible solution: https://ziggit.dev/t/unable-to-add-build-option-with-a-slice-of-enums/3867/2
 
-    //std.debug.print("\n BUILD: board_choice_enum:{any} ", .{board_choice_str});
+    std.debug.print("\nBUILD: board_choice_enum: {s} ", .{board_choice_str});
 
     //************************************************BOARD BUILD DEPENDENCIES************************************************
     //convert menu_choice_str into an enum for readability
-    const board_choice_enum = Board.fromString(board_choice_str);
+    //const board_choice_enum = Board.fromString(board_choice_str);
 
-    switch (board_choice_enum) {
-        Board_list.stm32g4xx => {
-            //add_all_stm32g4xx_source_files(b, exe);
-            try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm");
-            try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src");
-        },
-        else => {
-            //no import is needed
-        },
-    }
+    //add_all_stm32g4xx_source_files(b, exe);
+    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src");
+    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Core/Include");
+    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm");
+
+    //try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4");
+
+    // switch (board_choice_enum) {
+    //     Board_list.stm32g4xx => {
+    //         //add_all_stm32g4xx_source_files(b, exe);
+    //         // try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm");
+    //         // try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src");
+    //         // try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Core/Include");
+    //         try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4");
+    //     },
+    //     else => {
+    //         //no import is needed
+    //     },
+    // }
     //************************************************EXE DEPENDENCIES and OPTIONS************************************************
     exe.root_module.addImport("board", board_mod);
 
@@ -73,28 +82,33 @@ pub fn build(b: *std.Build) !void {
     run_step.dependOn(&run_cmd.step);
 }
 
-// fn add_all_stm32g4xx_source_files(b: *std.Build, exe: *std.Build.Step.Compile) void {
-
-//     //now just importing a few _hall for the example, must be imported all of them
-//     exe.addCSourceFile(.{ .file = b.path(".src/boards/stm32g4xx-hal-driver/Src/stm32g4xx_hal.c"), .flags = &.{"-std=c99"} });
-//     //..
-//     exe.addCSourceFile(.{ .file = b.path(".src/boards/stm32g4xx-hal-driver/Src/stm32g4xx_hal_pwr.c"), .flags = &.{"-std=c99"} });
-//     exe.addCSourceFile(.{ .file = b.path(".src/boards/stm32g4xx-hal-driver/Src/stm32g4xx_hal_comp.c"), .flags = &.{"-std=c99"} });
-// }
-
 fn addSourcesFromDir(b: *std.Build, exe: *std.Build.Step.Compile, dir_path: []const u8) !void {
+    std.debug.print("\nBUILD: addSourcesFromDir() {s}: ", .{dir_path});
+
     const fs = std.fs;
     const allocator = b.allocator;
 
-    // Open the directory
-    var dir = try fs.cwd().openDir(dir_path, .{});
+    // Attempt to open the directory
+    var dir = try fs.cwd().openDir(dir_path, .{ .iterate = true, .no_follow = true });
     defer dir.close();
+    std.debug.print("\n     Directory: {any}", .{dir});
 
-    // Create an iterator to go through directory entries
+    // Create an iterator for directory entries
     var it = dir.iterate();
-    while (try it.next()) |entry| {
+    //std.debug.print("\n     Iterator: {any}", .{it});
+
+    while (true) {
+        const next = it.next() catch |err| {
+            if (err == error.EndOfStream) {
+                break;
+            } else return err;
+        };
+        if (next == null) return;
+        const entry = next.?; // Unwrap the result if no error
         const full_path = try fs.path.join(allocator, &[_][]const u8{ dir_path, entry.name });
         defer allocator.free(full_path);
+
+        std.debug.print("\n     Importing: {s}", .{full_path});
 
         if (entry.kind == .file) {
             if (std.mem.eql(u8, std.fs.path.extension(entry.name), ".c")) {
@@ -102,14 +116,16 @@ fn addSourcesFromDir(b: *std.Build, exe: *std.Build.Step.Compile, dir_path: []co
                     .file = b.path(full_path),
                     .flags = &.{"-std=c99"},
                 });
-                std.debug.print("\n importing .c : {s}", .{full_path});
+                std.debug.print("\n     Added .c file: {s}", .{full_path});
             } else if (std.mem.eql(u8, std.fs.path.extension(entry.name), ".s")) {
-                exe.addAssemblyFile(b.path(full_path)); // Add assembly file
-                std.debug.print("\n importing .s : {s}", .{full_path});
+                exe.addAssemblyFile(b.path(full_path));
+                std.debug.print("\n     Added .s file: {s}", .{full_path});
             }
         } else if (entry.kind == .directory) {
-            // Recursively call this function for subdirectories
-            try addSourcesFromDir(b, exe, full_path);
+            // Catch and log errors for subdirectory processing
+            addSourcesFromDir(b, exe, full_path) catch |err| {
+                std.debug.print("\n     Failed to process subdirectory {s}: {any}", .{ full_path, err });
+            };
         }
     }
 }
