@@ -5,6 +5,12 @@ const Board_list = @import("src/boards/boardType.zig").Board_list;
 pub fn build(b: *std.Build) !void {
     // Set target options, such as architecture and OS.
     const target = b.standardTargetOptions(.{});
+    // const target = std.Target{
+    //     .cpu = .{ .arch = .arm },
+    //     .os = .none,
+    //     .ofmt = .elf,
+    //     .dynamic_linker = std.Target.DynamicLinker.init("/lib64/ld-linux-x86-64.so.2"),
+    // };
     // Set optimization level (debug, release, etc.).
     const optimize = b.standardOptimizeOption(.{});
 
@@ -26,7 +32,7 @@ pub fn build(b: *std.Build) !void {
     //exe.addLinkerArgs(&[_][]const u8{"-T/path/to/STM32CubeG4/linker_script.ld"});
 
     //************************************************MODULE CREATION************************************************
-    const board_mod = b.createModule(.{ .root_source_file = b.path("src/boards/boardType.zig") });
+    //const board_mod = b.createModule(.{ .root_source_file = b.path("src/boards/boardType.zig") });
 
     //************************************************ENABLE OPTIONS************************************************
     //declaring option voices
@@ -42,10 +48,23 @@ pub fn build(b: *std.Build) !void {
     //convert menu_choice_str into an enum for readability
     //const board_choice_enum = Board.fromString(board_choice_str);
 
-    //add_all_stm32g4xx_source_files(b, exe);
-    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src");
-    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Core/Include");
-    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm");
+    //--- STM32CubeG4
+    //--- STM32CubeG4 - drivers
+    //--- STM32CubeG4 - drivers - BSP
+    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/BSP");
+
+    //--- STM32CubeG4 - drivers - CMSIS
+    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS");
+
+    //--- STM32CubeG4 - drivers - STM32G4xx_HAL_Driver
+    try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver");
+
+    //try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src");
+    //try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src");
+    //try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm");
+    std.debug.print("\n   -------------------------------------------------------------------------------------------------------------", .{});
+    std.debug.print("\n   -------------------------------------------------------------------------------------------------------------", .{});
+    std.debug.print("\n   -------------------------------------------------------------------------------------------------------------", .{});
 
     //try addSourcesFromDir(b, exe, "src/boards/STM32CubeG4");
 
@@ -62,13 +81,14 @@ pub fn build(b: *std.Build) !void {
     //     },
     // }
     //************************************************EXE DEPENDENCIES and OPTIONS************************************************
-    exe.root_module.addImport("board", board_mod);
+    //exe.root_module.addImport("board", board_mod);
 
     //adding the options to the exe (aka main.zig)
-    exe.root_module.addOptions("board_options", board_options);
+    //exe.root_module.addOptions("board_options", board_options);
 
     //************************************************INSTALLING AND RUNNING************************************************
     // Install the executable.
+    std.debug.print("\nBUILD: install artifact ", .{});
     b.installArtifact(exe);
 
     // Define the run command for the main executable.
@@ -108,13 +128,14 @@ fn addSourcesFromDir(b: *std.Build, exe: *std.Build.Step.Compile, dir_path: []co
         const full_path = try fs.path.join(allocator, &[_][]const u8{ dir_path, entry.name });
         defer allocator.free(full_path);
 
-        std.debug.print("\n     Importing: {s}", .{full_path});
-
         if (entry.kind == .file) {
             if (std.mem.eql(u8, std.fs.path.extension(entry.name), ".c")) {
                 exe.addCSourceFile(.{
                     .file = b.path(full_path),
-                    .flags = &.{"-std=c99"},
+                    .flags = &.{
+                        "-DLLVM_ENABLE_PROJECTS=clang",                  "-DCMAKE_CROSSCOMPILING=True ", "-DCMAKE_INSTALL_PREFIX=/opt/llvmv6m",
+                        "-DLLVM_DEFAULT_TARGET_TRIPLE=armv6m-none-eabi", " -DLLVM_TARGET_ARCH=ARM",      " -DLLVM_TARGETS_TO_BUILD=ARM",
+                    },
                 });
                 std.debug.print("\n     Added .c file: {s}", .{full_path});
             } else if (std.mem.eql(u8, std.fs.path.extension(entry.name), ".s")) {
