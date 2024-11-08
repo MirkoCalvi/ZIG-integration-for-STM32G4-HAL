@@ -1,28 +1,21 @@
 const std = @import("std");
-const Board = @import("board");
-const Board_options = @import("board_options"); //remember to import your options
 
-// Import the C header file
-const board_hal_lib = @cImport({
-    //@cInclude("stm32g4xx_hal.h");
-    @cInclude("stdint.h");
-    @cInclude("stm32g4xx.h");
-    // @cInclude("system_stm32g4xx.h");
-});
+pub fn main() void {}
 
-pub fn main() !void {
+// const c = @cImport({
+//     @cDefine("USE_HAL_DRIVER", {});
+//     @cDefine("STM32G431xx", {});
+//     @cDefine("__PROGRAM_START", {}); //bug: https://github.com/ziglang/zig/issues/19687
+//     @cInclude("stm32g431xx.h");
+// });
 
-    //HERE I SHOW HOW TO ACCESS AN "OPTION", see Menu_options in build.zig
-    const my_board = Board.fromString(Board_options.board_choice);
+// export fn zig_entrypoint() void {
+//     while (true) {
+//         c.HAL_GPIO_WritePin(c.LD2_GPIO_Port, c.LD2_Pin, c.GPIO_PIN_RESET);
+//         c.HAL_Delay(200);
+//         c.HAL_GPIO_WritePin(c.LD2_GPIO_Port, c.LD2_Pin, c.GPIO_PIN_SET);
+//         c.HAL_Delay(500);
+//     }
 
-    print_my_board(my_board);
-
-    //calling init function
-    board_hal_lib.HAL_Init();
-
-    std.debug.print("\n  {} \n", .{my_board});
-}
-
-pub inline fn print_my_board(my_board: Board.Board_list) void {
-    std.debug.print("\n ----You chose {any} board!!!", .{my_board});
-}
+//     unreachable;
+// }

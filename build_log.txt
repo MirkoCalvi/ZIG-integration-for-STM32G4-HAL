@@ -1,0 +1,1490 @@
+
+BUILD MSG -> your arm-none-eabi-gcc should be located at /usr/bin/arm-none-eabi-gcc
+BUILD: addSourcesFromDir() src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src: 
+     Directory: fs.Dir{ .fd = 8 }
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dma.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_gpio.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crs.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nor.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lptim.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2s.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nand.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_comp.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_opamp.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmac.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_wwdg.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_cordic.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_utils.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_i2c.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_tim.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_hrtim.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_irda.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rng.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dac.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_lptim.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sram.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usart.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_pwr.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cordic.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_exti.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rcc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_spi.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_ucpd.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lpuart.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_qspi.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rtc.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc_ex.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
+     Added .c file: src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c
+BUILD: addSourcesFromDir() src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates: 
+     Directory: fs.Dir{ .fd = 8 }
+     Added .c file: src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/system_stm32g4xx.c
+   -------------------------------------------------------------------------------------------------------------
+   -------------------------------------------------------------------------------------------------------------
+   -------------------------------------------------------------------------------------------------------------
+BUILD: install artifact install
++- install generated to dumboard.bin
+   +- objcopy generated
+      +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi 1 errors
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:1:1: error: clang exited with code 1
+error: error(compilation): clang failed with stderr: zig: warning: argument unused during compilation: '-ffunction-sections' [-Wunused-command-line-argument]
+zig: warning: argument unused during compilation: '-fdata-sections' [-Wunused-command-line-argument]
+zig: warning: argument unused during compilation: '-ffreestanding' [-Wunused-command-line-argument]
+zig: warning: argument unused during compilation: '-isystem /lib/arm-none-eabi/include' [-Wunused-command-line-argument]
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:2:25: error: unexpected token in argument list
+Stack_Size      EQU     0x400;
+                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:4:56: error: unexpected token in argument list
+                AREA    STACK, NOINIT, READWRITE, ALIGN=3
+                                                       ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:5:25: error: unexpected token in argument list
+Stack_Mem       SPACE   Stack_Size
+                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:6:1: error: invalid instruction
+__initial_sp
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:9:3: error: unexpected token at start of statement
+; <h> Heap Configuration
+  ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:10:5: error: unexpected token at start of statement
+;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
+    ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:11:3: error: unexpected token at start of statement
+; </h>
+  ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:13:25: error: unexpected token in argument list
+Heap_Size       EQU     0x200;
+                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:15:55: error: unexpected token in argument list
+                AREA    HEAP, NOINIT, READWRITE, ALIGN=3
+                                                      ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:16:1: error: invalid instruction
+__heap_base
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:17:25: error: unexpected token in argument list
+Heap_Mem        SPACE   Heap_Size
+                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:18:1: error: invalid instruction
+__heap_limit
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:20:17: error: invalid instruction
+                PRESERVE8
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:21:17: error: invalid instruction
+                THUMB
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:24:16: error: unexpected token in argument list
+; Vector Table Mapped to Address 0 at Reset
+               ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:25:17: error: invalid instruction
+                AREA    RESET, DATA, READONLY
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:26:17: error: invalid instruction
+                EXPORT  __Vectors
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:27:17: error: invalid instruction
+                EXPORT  __Vectors_End
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:28:17: error: invalid instruction
+                EXPORT  __Vectors_Size
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:30:1: error: instruction '__vector' can not set flags, but 's' suffix specified
+__Vectors       DCD     __initial_sp               ; Top of Stack
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:30:61: error: unexpected token in argument list
+__Vectors       DCD     __initial_sp               ; Top of Stack
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:31:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     Reset_Handler              ; Reset Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:31:54: error: invalid instruction
+                DCD     Reset_Handler              ; Reset Handler
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:32:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     NMI_Handler                ; NMI Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:32:54: error: invalid instruction, did you mean: and, b, cmn, mvn, neg, nop, orn?
+                DCD     NMI_Handler                ; NMI Handler
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:33:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     HardFault_Handler          ; Hard Fault Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:33:65: error: unexpected token in argument list
+                DCD     HardFault_Handler          ; Hard Fault Handler
+                                                                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:34:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     MemManage_Handler          ; MPU Fault Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:34:64: error: unexpected token in argument list
+                DCD     MemManage_Handler          ; MPU Fault Handler
+                                                               ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:35:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     BusFault_Handler           ; Bus Fault Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:35:54: error: instruction 'bu' can not set flags, but 's' suffix specified
+                DCD     BusFault_Handler           ; Bus Fault Handler
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:36:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     UsageFault_Handler         ; Usage Fault Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:36:66: error: unexpected token in argument list
+                DCD     UsageFault_Handler         ; Usage Fault Handler
+                                                                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:37:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                          ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:37:54: error: invalid instruction
+                DCD     0                          ; Reserved
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:38:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                          ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:38:54: error: invalid instruction
+                DCD     0                          ; Reserved
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:39:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                          ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:39:54: error: invalid instruction
+                DCD     0                          ; Reserved
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:40:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                          ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:40:54: error: invalid instruction
+                DCD     0                          ; Reserved
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:41:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     SVC_Handler                ; SVCall Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:41:54: error: invalid instruction
+                DCD     SVC_Handler                ; SVCall Handler
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:42:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DebugMon_Handler           ; Debug Monitor Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:42:68: error: unexpected token in argument list
+                DCD     DebugMon_Handler           ; Debug Monitor Handler
+                                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:43:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                          ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:43:54: error: invalid instruction
+                DCD     0                          ; Reserved
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:44:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     PendSV_Handler             ; PendSV Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:44:54: error: invalid instruction
+                DCD     PendSV_Handler             ; PendSV Handler
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:45:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     SysTick_Handler            ; SysTick Handler
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:45:54: error: invalid instruction
+                DCD     SysTick_Handler            ; SysTick Handler
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:47:19: error: invalid instruction
+                ; External Interrupts
+                  ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:48:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     WWDG_IRQHandler                   ; Window WatchDog
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:48:61: error: invalid instruction
+                DCD     WWDG_IRQHandler                   ; Window WatchDog
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:49:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     PVD_PVM_IRQHandler                ; PVD/PVM1/PVM2/PVM3/PVM4 through EXTI Line detection
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:49:64: error: unexpected token in operand
+                DCD     PVD_PVM_IRQHandler                ; PVD/PVM1/PVM2/PVM3/PVM4 through EXTI Line detection
+                                                               ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:50:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     RTC_TAMP_LSECSS_IRQHandler        ; RTC, TAMP and RCC LSE_CSS through the EXTI line
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:50:64: error: unexpected token in operand
+                DCD     RTC_TAMP_LSECSS_IRQHandler        ; RTC, TAMP and RCC LSE_CSS through the EXTI line
+                                                               ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:51:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     RTC_WKUP_IRQHandler               ; RTC Wakeup through the EXTI line
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:51:72: error: unexpected token in argument list
+                DCD     RTC_WKUP_IRQHandler               ; RTC Wakeup through the EXTI line
+                                                                       ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:52:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     FLASH_IRQHandler                  ; FLASH
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:52:61: error: invalid instruction
+                DCD     FLASH_IRQHandler                  ; FLASH
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:53:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     RCC_IRQHandler                    ; RCC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:53:61: error: invalid instruction, did you mean: adr, asr, b, eor, ldr, lsr, mcr, mrc, mrs, msr, orn, orr, rev, ror, rrx, rsb, str?
+                DCD     RCC_IRQHandler                    ; RCC
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:54:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI0_IRQHandler                  ; EXTI Line0
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:54:61: error: invalid instruction
+                DCD     EXTI0_IRQHandler                  ; EXTI Line0
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:55:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI1_IRQHandler                  ; EXTI Line1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:55:61: error: invalid instruction
+                DCD     EXTI1_IRQHandler                  ; EXTI Line1
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:56:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI2_IRQHandler                  ; EXTI Line2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:56:61: error: invalid instruction
+                DCD     EXTI2_IRQHandler                  ; EXTI Line2
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:57:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI3_IRQHandler                  ; EXTI Line3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:57:61: error: invalid instruction
+                DCD     EXTI3_IRQHandler                  ; EXTI Line3
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:58:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI4_IRQHandler                  ; EXTI Line4
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:58:61: error: invalid instruction
+                DCD     EXTI4_IRQHandler                  ; EXTI Line4
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:59:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA1_Channel1_IRQHandler          ; DMA1 Channel 1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:59:74: error: unexpected token in argument list
+                DCD     DMA1_Channel1_IRQHandler          ; DMA1 Channel 1
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:60:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA1_Channel2_IRQHandler          ; DMA1 Channel 2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:60:74: error: unexpected token in argument list
+                DCD     DMA1_Channel2_IRQHandler          ; DMA1 Channel 2
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:61:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA1_Channel3_IRQHandler          ; DMA1 Channel 3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:61:74: error: unexpected token in argument list
+                DCD     DMA1_Channel3_IRQHandler          ; DMA1 Channel 3
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:62:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA1_Channel4_IRQHandler          ; DMA1 Channel 4
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:62:74: error: unexpected token in argument list
+                DCD     DMA1_Channel4_IRQHandler          ; DMA1 Channel 4
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:63:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA1_Channel5_IRQHandler          ; DMA1 Channel 5
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:63:74: error: unexpected token in argument list
+                DCD     DMA1_Channel5_IRQHandler          ; DMA1 Channel 5
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:64:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA1_Channel6_IRQHandler          ; DMA1 Channel 6
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:64:74: error: unexpected token in argument list
+                DCD     DMA1_Channel6_IRQHandler          ; DMA1 Channel 6
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:65:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:65:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:66:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     ADC1_2_IRQHandler                 ; ADC1 and ADC2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:66:70: error: unexpected token in argument list
+                DCD     ADC1_2_IRQHandler                 ; ADC1 and ADC2
+                                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:67:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     USB_HP_IRQHandler                 ; USB Device High Priority
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:67:72: error: unexpected token in argument list
+                DCD     USB_HP_IRQHandler                 ; USB Device High Priority
+                                                                       ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:68:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     USB_LP_IRQHandler                 ; USB Device Low Priority
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:68:72: error: unexpected token in argument list
+                DCD     USB_LP_IRQHandler                 ; USB Device Low Priority
+                                                                       ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:69:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     FDCAN1_IT0_IRQHandler             ; FDCAN1 interrupt line 0
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:69:78: error: unexpected token in argument list
+                DCD     FDCAN1_IT0_IRQHandler             ; FDCAN1 interrupt line 0
+                                                                             ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:70:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     FDCAN1_IT1_IRQHandler             ; FDCAN1 interrupt line 1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:70:78: error: unexpected token in argument list
+                DCD     FDCAN1_IT1_IRQHandler             ; FDCAN1 interrupt line 1
+                                                                             ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:71:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI9_5_IRQHandler                ; External Line[9:5]s
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:71:74: error: unexpected token in argument list
+                DCD     EXTI9_5_IRQHandler                ; External Line[9:5]s
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:72:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM1_BRK_TIM15_IRQHandler         ; TIM1 Break, Transition error, Index error and TIM15
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:72:84: error: unexpected token in argument list
+                DCD     TIM1_BRK_TIM15_IRQHandler         ; TIM1 Break, Transition error, Index error and TIM15
+                                                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:73:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM1_UP_TIM16_IRQHandler          ; TIM1 Update and TIM16
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:73:73: error: unexpected token in argument list
+                DCD     TIM1_UP_TIM16_IRQHandler          ; TIM1 Update and TIM16
+                                                                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:74:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM1_TRG_COM_TIM17_IRQHandler     ; TIM1 Trigger, Commutation, Direction change, Index and TIM17
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:74:98: error: unexpected token in argument list
+                DCD     TIM1_TRG_COM_TIM17_IRQHandler     ; TIM1 Trigger, Commutation, Direction change, Index and TIM17
+                                                                                                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:75:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM1_CC_IRQHandler                ; TIM1 Capture Compare
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:75:74: error: unexpected token in argument list
+                DCD     TIM1_CC_IRQHandler                ; TIM1 Capture Compare
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:76:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM2_IRQHandler                   ; TIM2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:76:61: error: invalid instruction
+                DCD     TIM2_IRQHandler                   ; TIM2
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:77:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM3_IRQHandler                   ; TIM3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:77:61: error: invalid instruction
+                DCD     TIM3_IRQHandler                   ; TIM3
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:78:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM4_IRQHandler                   ; TIM4
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:78:61: error: invalid instruction
+                DCD     TIM4_IRQHandler                   ; TIM4
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:79:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     I2C1_EV_IRQHandler                ; I2C1 Event
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:79:61: error: invalid instruction
+                DCD     I2C1_EV_IRQHandler                ; I2C1 Event
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:80:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     I2C1_ER_IRQHandler                ; I2C1 Error
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:80:61: error: invalid instruction
+                DCD     I2C1_ER_IRQHandler                ; I2C1 Error
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:81:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     I2C2_EV_IRQHandler                ; I2C2 Event
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:81:61: error: invalid instruction
+                DCD     I2C2_EV_IRQHandler                ; I2C2 Event
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:82:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     I2C2_ER_IRQHandler                ; I2C2 Error
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:82:61: error: invalid instruction
+                DCD     I2C2_ER_IRQHandler                ; I2C2 Error
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:83:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     SPI1_IRQHandler                   ; SPI1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:83:61: error: invalid instruction
+                DCD     SPI1_IRQHandler                   ; SPI1
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:84:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     SPI2_IRQHandler                   ; SPI2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:84:61: error: invalid instruction
+                DCD     SPI2_IRQHandler                   ; SPI2
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:85:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     USART1_IRQHandler                 ; USART1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:85:61: error: invalid instruction, did you mean: usat, usat16?
+                DCD     USART1_IRQHandler                 ; USART1
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:86:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     USART2_IRQHandler                 ; USART2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:86:61: error: invalid instruction, did you mean: usat?
+                DCD     USART2_IRQHandler                 ; USART2
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:87:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     USART3_IRQHandler                 ; USART3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:87:61: error: invalid instruction, did you mean: usat?
+                DCD     USART3_IRQHandler                 ; USART3
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:88:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     EXTI15_10_IRQHandler              ; External Line[15:10]
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:88:74: error: unexpected token in argument list
+                DCD     EXTI15_10_IRQHandler              ; External Line[15:10]
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:89:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     RTC_Alarm_IRQHandler              ; RTC Alarm (A and B) through EXTI Line
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:89:74: error: expected ')'
+                DCD     RTC_Alarm_IRQHandler              ; RTC Alarm (A and B) through EXTI Line
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:90:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     USBWakeUp_IRQHandler              ; USB Wakeup through EXTI line
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:90:72: error: unexpected token in argument list
+                DCD     USBWakeUp_IRQHandler              ; USB Wakeup through EXTI line
+                                                                       ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:91:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM8_BRK_IRQHandler               ; TIM8 Break, Transition error and Index error Interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:91:84: error: unexpected token in argument list
+                DCD     TIM8_BRK_IRQHandler               ; TIM8 Break, Transition error and Index error Interrupt
+                                                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:92:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM8_UP_IRQHandler                ; TIM8 Update Interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:92:73: error: unexpected token in argument list
+                DCD     TIM8_UP_IRQHandler                ; TIM8 Update Interrupt
+                                                                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:93:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM8_TRG_COM_IRQHandler           ; TIM8 Trigger, Commutation, Direction change and Index Interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:93:98: error: unexpected token in argument list
+                DCD     TIM8_TRG_COM_IRQHandler           ; TIM8 Trigger, Commutation, Direction change and Index Interrupt
+                                                                                                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:94:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM8_CC_IRQHandler                ; TIM8 Capture Compare Interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:94:74: error: unexpected token in argument list
+                DCD     TIM8_CC_IRQHandler                ; TIM8 Capture Compare Interrupt
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:95:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:95:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:96:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:96:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:97:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     LPTIM1_IRQHandler                 ; LP TIM1 interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:97:69: error: unexpected token in argument list
+                DCD     LPTIM1_IRQHandler                 ; LP TIM1 interrupt
+                                                                    ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:98:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:98:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:99:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     SPI3_IRQHandler                   ; SPI3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:99:61: error: invalid instruction
+                DCD     SPI3_IRQHandler                   ; SPI3
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:100:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     UART4_IRQHandler                  ; UART4
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:100:61: error: invalid instruction
+                DCD     UART4_IRQHandler                  ; UART4
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:101:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:101:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:102:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM6_DAC_IRQHandler               ; TIM6 and DAC1&3 underrun errors
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:102:70: error: unexpected token in argument list
+                DCD     TIM6_DAC_IRQHandler               ; TIM6 and DAC1&3 underrun errors
+                                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:103:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     TIM7_IRQHandler                   ; TIM7
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:103:61: error: invalid instruction
+                DCD     TIM7_IRQHandler                   ; TIM7
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:104:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA2_Channel1_IRQHandler          ; DMA2 Channel 1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:104:74: error: unexpected token in argument list
+                DCD     DMA2_Channel1_IRQHandler          ; DMA2 Channel 1
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:105:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA2_Channel2_IRQHandler          ; DMA2 Channel 2
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:105:74: error: unexpected token in argument list
+                DCD     DMA2_Channel2_IRQHandler          ; DMA2 Channel 2
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:106:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA2_Channel3_IRQHandler          ; DMA2 Channel 3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:106:74: error: unexpected token in argument list
+                DCD     DMA2_Channel3_IRQHandler          ; DMA2 Channel 3
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:107:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA2_Channel4_IRQHandler          ; DMA2 Channel 4
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:107:74: error: unexpected token in argument list
+                DCD     DMA2_Channel4_IRQHandler          ; DMA2 Channel 4
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:108:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA2_Channel5_IRQHandler          ; DMA2 Channel 5
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:108:74: error: unexpected token in argument list
+                DCD     DMA2_Channel5_IRQHandler          ; DMA2 Channel 5
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:109:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:109:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:110:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:110:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:111:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     UCPD1_IRQHandler                  ; UCPD1
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:111:61: error: invalid instruction
+                DCD     UCPD1_IRQHandler                  ; UCPD1
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:112:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     COMP1_2_3_IRQHandler              ; COMP1, COMP2 and COMP3
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:112:66: error: unexpected token in operand
+                DCD     COMP1_2_3_IRQHandler              ; COMP1, COMP2 and COMP3
+                                                                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:113:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     COMP4_IRQHandler                  ; COMP4
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:113:61: error: invalid instruction, did you mean: cmp?
+                DCD     COMP4_IRQHandler                  ; COMP4
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:114:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:114:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:115:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:115:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:116:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:116:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:117:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:117:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:118:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:118:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:119:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:119:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:120:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:120:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:121:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:121:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:122:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:122:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:123:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     CRS_IRQHandler                    ; CRS Interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:123:61: error: instruction 'cr' can not set flags, but 's' suffix specified
+                DCD     CRS_IRQHandler                    ; CRS Interrupt
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:124:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     SAI1_IRQHandler                   ; Serial Audio Interface 1 global interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:124:74: error: unexpected token in argument list
+                DCD     SAI1_IRQHandler                   ; Serial Audio Interface 1 global interrupt
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:125:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:125:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:126:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:126:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:127:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:127:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:128:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:128:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:129:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     FPU_IRQHandler                    ; FPU
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:129:61: error: invalid instruction
+                DCD     FPU_IRQHandler                    ; FPU
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:130:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:130:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:131:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:131:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:132:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:132:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:133:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:133:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:134:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:134:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:135:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:135:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:136:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:136:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:137:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:137:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:138:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     RNG_IRQHandler                    ; RNG global interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:138:72: error: unexpected token in argument list
+                DCD     RNG_IRQHandler                    ; RNG global interrupt
+                                                                       ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:139:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     LPUART1_IRQHandler                ; LP UART 1 interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:139:69: error: unexpected token in argument list
+                DCD     LPUART1_IRQHandler                ; LP UART 1 interrupt
+                                                                    ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:140:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     I2C3_EV_IRQHandler                ; I2C3 Event
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:140:61: error: invalid instruction
+                DCD     I2C3_EV_IRQHandler                ; I2C3 Event
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:141:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     I2C3_ER_IRQHandler                ; I2C3 Error
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:141:61: error: invalid instruction
+                DCD     I2C3_ER_IRQHandler                ; I2C3 Error
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:142:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMAMUX_OVR_IRQHandler             ; DMAMUX overrun global interrupt
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:142:76: error: unexpected token in argument list
+                DCD     DMAMUX_OVR_IRQHandler             ; DMAMUX overrun global interrupt
+                                                                           ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:143:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:143:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:144:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:144:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:145:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     DMA2_Channel6_IRQHandler          ; DMA2 Channel 6
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:145:74: error: unexpected token in argument list
+                DCD     DMA2_Channel6_IRQHandler          ; DMA2 Channel 6
+                                                                         ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:146:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:146:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:147:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     0                                 ; Reserved
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:147:61: error: invalid instruction
+                DCD     0                                 ; Reserved
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:148:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     CORDIC_IRQHandler                 ; CORDIC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:148:61: error: invalid instruction
+                DCD     CORDIC_IRQHandler                 ; CORDIC
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:149:17: error: invalid instruction, did you mean: adc, add, cdp, ldc?
+                DCD     FMAC_IRQHandler                   ; FMAC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:149:61: error: invalid instruction, did you mean: vfma?
+                DCD     FMAC_IRQHandler                   ; FMAC
+                                                            ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:151:1: error: invalid instruction
+__Vectors_End
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:153:22: error: unexpected token in argument list
+__Vectors_Size  EQU  __Vectors_End - __Vectors
+                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:155:25: error: unexpected token in operand
+                AREA    |.text|, CODE, READONLY
+                        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:157:3: error: invalid instruction
+; Reset handler
+  ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:158:1: error: invalid instruction
+Reset_Handler    PROC
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:159:52: error: unexpected token in argument list
+                 EXPORT  Reset_Handler             [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:160:9: error: invalid instruction
+        IMPORT  SystemInit
+        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:161:9: error: invalid instruction
+        IMPORT  __main
+        ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:167:18: error: invalid instruction
+                 ENDP
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:169:19: error: unexpected token in argument list
+; Dummy Exception Handlers (infinite loops which can be modified)
+                  ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:171:1: error: invalid instruction
+NMI_Handler     PROC
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:172:52: error: unexpected token in argument list
+                EXPORT  NMI_Handler                [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:174:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:175:18: error: unexpected token in operand
+HardFault_Handler\
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:176:17: error: invalid instruction
+                PROC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:177:52: error: unexpected token in argument list
+                EXPORT  HardFault_Handler          [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:179:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:180:18: error: unexpected token in operand
+MemManage_Handler\
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:181:17: error: invalid instruction
+                PROC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:182:52: error: unexpected token in argument list
+                EXPORT  MemManage_Handler          [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:184:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:185:17: error: unexpected token in operand
+BusFault_Handler\
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:186:17: error: invalid instruction
+                PROC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:187:52: error: unexpected token in argument list
+                EXPORT  BusFault_Handler           [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:189:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:190:19: error: unexpected token in operand
+UsageFault_Handler\
+                  ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:191:17: error: invalid instruction
+                PROC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:192:52: error: unexpected token in argument list
+                EXPORT  UsageFault_Handler         [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:194:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:195:1: error: invalid instruction
+SVC_Handler     PROC
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:196:52: error: unexpected token in argument list
+                EXPORT  SVC_Handler                [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:198:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:199:17: error: unexpected token in operand
+DebugMon_Handler\
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:200:17: error: invalid instruction
+                PROC
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:201:52: error: unexpected token in argument list
+                EXPORT  DebugMon_Handler           [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:203:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:204:1: error: invalid instruction
+PendSV_Handler  PROC
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:205:52: error: unexpected token in argument list
+                EXPORT  PendSV_Handler             [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:207:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:208:1: error: invalid instruction
+SysTick_Handler PROC
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:209:52: error: unexpected token in argument list
+                EXPORT  SysTick_Handler            [WEAK]
+                                                   ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:211:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:213:1: error: invalid instruction
+Default_Handler PROC
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:215:54: error: unexpected token in argument list
+        EXPORT     WWDG_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:216:54: error: unexpected token in argument list
+        EXPORT     PVD_PVM_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:217:54: error: unexpected token in argument list
+        EXPORT     RTC_TAMP_LSECSS_IRQHandler        [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:218:54: error: unexpected token in argument list
+        EXPORT     RTC_WKUP_IRQHandler               [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:219:54: error: unexpected token in argument list
+        EXPORT     FLASH_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:220:54: error: unexpected token in argument list
+        EXPORT     RCC_IRQHandler                    [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:221:54: error: unexpected token in argument list
+        EXPORT     EXTI0_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:222:54: error: unexpected token in argument list
+        EXPORT     EXTI1_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:223:54: error: unexpected token in argument list
+        EXPORT     EXTI2_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:224:54: error: unexpected token in argument list
+        EXPORT     EXTI3_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:225:54: error: unexpected token in argument list
+        EXPORT     EXTI4_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:226:54: error: unexpected token in argument list
+        EXPORT     DMA1_Channel1_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:227:54: error: unexpected token in argument list
+        EXPORT     DMA1_Channel2_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:228:54: error: unexpected token in argument list
+        EXPORT     DMA1_Channel3_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:229:54: error: unexpected token in argument list
+        EXPORT     DMA1_Channel4_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:230:54: error: unexpected token in argument list
+        EXPORT     DMA1_Channel5_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:231:54: error: unexpected token in argument list
+        EXPORT     DMA1_Channel6_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:232:54: error: unexpected token in argument list
+        EXPORT     ADC1_2_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:233:54: error: unexpected token in argument list
+        EXPORT     USB_HP_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:234:54: error: unexpected token in argument list
+        EXPORT     USB_LP_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:235:54: error: unexpected token in argument list
+        EXPORT     FDCAN1_IT0_IRQHandler             [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:236:54: error: unexpected token in argument list
+        EXPORT     FDCAN1_IT1_IRQHandler             [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:237:54: error: unexpected token in argument list
+        EXPORT     EXTI9_5_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:238:54: error: unexpected token in argument list
+        EXPORT     TIM1_BRK_TIM15_IRQHandler         [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:239:54: error: unexpected token in argument list
+        EXPORT     TIM1_UP_TIM16_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:240:54: error: unexpected token in argument list
+        EXPORT     TIM1_TRG_COM_TIM17_IRQHandler     [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:241:54: error: unexpected token in argument list
+        EXPORT     TIM1_CC_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:242:54: error: unexpected token in argument list
+        EXPORT     TIM2_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:243:54: error: unexpected token in argument list
+        EXPORT     TIM3_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:244:54: error: unexpected token in argument list
+        EXPORT     TIM4_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:245:54: error: unexpected token in argument list
+        EXPORT     I2C1_EV_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:246:54: error: unexpected token in argument list
+        EXPORT     I2C1_ER_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:247:54: error: unexpected token in argument list
+        EXPORT     I2C2_EV_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:248:54: error: unexpected token in argument list
+        EXPORT     I2C2_ER_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:249:54: error: unexpected token in argument list
+        EXPORT     SPI1_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:250:54: error: unexpected token in argument list
+        EXPORT     SPI2_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:251:54: error: unexpected token in argument list
+        EXPORT     USART1_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:252:54: error: unexpected token in argument list
+        EXPORT     USART2_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:253:54: error: unexpected token in argument list
+        EXPORT     USART3_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:254:54: error: unexpected token in argument list
+        EXPORT     EXTI15_10_IRQHandler              [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:255:54: error: unexpected token in argument list
+        EXPORT     RTC_Alarm_IRQHandler              [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:256:54: error: unexpected token in argument list
+        EXPORT     USBWakeUp_IRQHandler              [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:257:54: error: unexpected token in argument list
+        EXPORT     TIM8_BRK_IRQHandler               [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:258:54: error: unexpected token in argument list
+        EXPORT     TIM8_UP_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:259:54: error: unexpected token in argument list
+        EXPORT     TIM8_TRG_COM_IRQHandler           [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:260:54: error: unexpected token in argument list
+        EXPORT     TIM8_CC_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:261:54: error: unexpected token in argument list
+        EXPORT     LPTIM1_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:262:54: error: unexpected token in argument list
+        EXPORT     SPI3_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:263:54: error: unexpected token in argument list
+        EXPORT     UART4_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:264:54: error: unexpected token in argument list
+        EXPORT     TIM6_DAC_IRQHandler               [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:265:54: error: unexpected token in argument list
+        EXPORT     TIM7_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:266:54: error: unexpected token in argument list
+        EXPORT     DMA2_Channel1_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:267:54: error: unexpected token in argument list
+        EXPORT     DMA2_Channel2_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:268:54: error: unexpected token in argument list
+        EXPORT     DMA2_Channel3_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:269:54: error: unexpected token in argument list
+        EXPORT     DMA2_Channel4_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:270:54: error: unexpected token in argument list
+        EXPORT     DMA2_Channel5_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:271:54: error: unexpected token in argument list
+        EXPORT     UCPD1_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:272:54: error: unexpected token in argument list
+        EXPORT     COMP1_2_3_IRQHandler              [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:273:54: error: unexpected token in argument list
+        EXPORT     COMP4_IRQHandler                  [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:274:54: error: unexpected token in argument list
+        EXPORT     CRS_IRQHandler                    [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:275:54: error: unexpected token in argument list
+        EXPORT     SAI1_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:276:54: error: unexpected token in argument list
+        EXPORT     FPU_IRQHandler                    [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:277:54: error: unexpected token in argument list
+        EXPORT     RNG_IRQHandler                    [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:278:54: error: unexpected token in argument list
+        EXPORT     LPUART1_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:279:54: error: unexpected token in argument list
+        EXPORT     I2C3_EV_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:280:54: error: unexpected token in argument list
+        EXPORT     I2C3_ER_IRQHandler                [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:281:54: error: unexpected token in argument list
+        EXPORT     DMAMUX_OVR_IRQHandler             [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:282:54: error: unexpected token in argument list
+        EXPORT     DMA2_Channel6_IRQHandler          [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:283:54: error: unexpected token in argument list
+        EXPORT     CORDIC_IRQHandler                 [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:284:54: error: unexpected token in argument list
+        EXPORT     FMAC_IRQHandler                   [WEAK]
+                                                     ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:286:1: error: invalid instruction
+WWDG_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:287:1: error: invalid instruction
+PVD_PVM_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:288:1: error: invalid instruction
+RTC_TAMP_LSECSS_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:289:1: error: invalid instruction
+RTC_WKUP_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:290:1: error: invalid instruction
+FLASH_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:291:1: error: invalid instruction
+RCC_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:292:1: error: invalid instruction
+EXTI0_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:293:1: error: invalid instruction
+EXTI1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:294:1: error: invalid instruction
+EXTI2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:295:1: error: invalid instruction
+EXTI3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:296:1: error: invalid instruction
+EXTI4_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:297:1: error: invalid instruction
+DMA1_Channel1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:298:1: error: invalid instruction
+DMA1_Channel2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:299:1: error: invalid instruction
+DMA1_Channel3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:300:1: error: invalid instruction
+DMA1_Channel4_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:301:1: error: invalid instruction
+DMA1_Channel5_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:302:1: error: invalid instruction
+DMA1_Channel6_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:303:1: error: invalid instruction
+ADC1_2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:304:1: error: invalid instruction
+USB_HP_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:305:1: error: invalid instruction
+USB_LP_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:306:1: error: invalid instruction
+FDCAN1_IT0_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:307:1: error: invalid instruction
+FDCAN1_IT1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:308:1: error: invalid instruction
+EXTI9_5_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:309:1: error: invalid instruction
+TIM1_BRK_TIM15_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:310:1: error: invalid instruction
+TIM1_UP_TIM16_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:311:1: error: invalid instruction
+TIM1_TRG_COM_TIM17_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:312:1: error: invalid instruction
+TIM1_CC_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:313:1: error: invalid instruction
+TIM2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:314:1: error: invalid instruction
+TIM3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:315:1: error: invalid instruction
+TIM4_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:316:1: error: invalid instruction
+I2C1_EV_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:317:1: error: invalid instruction
+I2C1_ER_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:318:1: error: invalid instruction
+I2C2_EV_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:319:1: error: invalid instruction
+I2C2_ER_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:320:1: error: invalid instruction
+SPI1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:321:1: error: invalid instruction
+SPI2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:322:1: error: invalid instruction
+USART1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:323:1: error: invalid instruction
+USART2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:324:1: error: invalid instruction
+USART3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:325:1: error: invalid instruction
+EXTI15_10_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:326:1: error: invalid instruction
+RTC_Alarm_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:327:1: error: invalid instruction
+USBWakeUp_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:328:1: error: invalid instruction
+TIM8_BRK_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:329:1: error: invalid instruction
+TIM8_UP_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:330:1: error: invalid instruction
+TIM8_TRG_COM_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:331:1: error: invalid instruction
+TIM8_CC_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:332:1: error: invalid instruction
+LPTIM1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:333:1: error: invalid instruction
+SPI3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:334:1: error: invalid instruction
+UART4_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:335:1: error: invalid instruction
+TIM6_DAC_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:336:1: error: invalid instruction
+TIM7_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:337:1: error: invalid instruction
+DMA2_Channel1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:338:1: error: invalid instruction
+DMA2_Channel2_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:339:1: error: invalid instruction
+DMA2_Channel3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:340:1: error: invalid instruction
+DMA2_Channel4_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:341:1: error: invalid instruction
+DMA2_Channel5_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:342:1: error: invalid instruction
+UCPD1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:343:1: error: invalid instruction
+COMP1_2_3_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:344:1: error: invalid instruction
+COMP4_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:345:1: error: invalid instruction
+CRS_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:346:1: error: invalid instruction
+SAI1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:347:1: error: invalid instruction
+FPU_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:348:1: error: invalid instruction
+RNG_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:349:1: error: invalid instruction
+LPUART1_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:350:1: error: invalid instruction
+I2C3_EV_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:351:1: error: invalid instruction
+I2C3_ER_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:352:1: error: invalid instruction
+DMAMUX_OVR_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:353:1: error: invalid instruction
+DMA2_Channel6_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:354:1: error: invalid instruction
+CORDIC_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:355:1: error: invalid instruction
+FMAC_IRQHandler
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:359:17: error: invalid instruction
+                ENDP
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:361:17: error: invalid instruction
+                ALIGN
+                ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:363:2: error: unexpected token at start of statement
+;*******************************************************************************
+ ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:364:14: error: unexpected token in argument list
+; User Stack and Heap initialization
+             ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:365:2: error: unexpected token at start of statement
+;*******************************************************************************
+ ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:366:31: error: invalid instruction
+                 IF      :DEF:__MICROLIB
+                              ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:368:18: error: invalid instruction
+                 EXPORT  __initial_sp
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:369:18: error: invalid instruction
+                 EXPORT  __heap_base
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:370:18: error: invalid instruction
+                 EXPORT  __heap_limit
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:372:18: error: invalid instruction
+                 ELSE
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:374:18: error: invalid instruction
+                 IMPORT  __use_two_region_memory
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:375:18: error: invalid instruction
+                 EXPORT  __user_initial_stackheap
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:377:1: error: invalid instruction
+__user_initial_stackheap
+^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:385:18: error: invalid instruction
+                 ALIGN
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:387:18: error: invalid instruction
+                 ENDIF
+                 ^
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s:389:18: error: invalid instruction, did you mean: and?
+                 END
+                 ^
+
+
+error: the following command failed with 1 compilation errors:
+/home/mirko/Documents/zig/zig-linux-x86_64-0.14.0-dev.984+ca012e5b6/zig build-exe -lc_nano -lm /lib/arm-none-eabi/newlib/thumb/v7e-m/nofp/crt0.o /lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o /lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o /lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtend.o /lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dma.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_gpio.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crs.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nor.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lptim.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2s.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nand.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_comp.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_opamp.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmac.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_wwdg.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_cordic.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_utils.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_i2c.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_tim.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_hrtim.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_irda.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rng.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dac.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_lptim.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sram.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usart.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_pwr.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cordic.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_exti.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rcc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_spi.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_ucpd.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lpuart.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_qspi.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rtc.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c -cflags -Og -std=gnu17 -DUSE_HAL_DRIVER -DSTM32G431xx -- /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/system_stm32g4xx.c -fsingle-threaded -ODebug -target thumb-freestanding-eabi -mcpu cortex_m4+fp_armv8d16sp+loop_align+no_branch_predictor+slowfpvfmx+slowfpvmlx+use_misched+v7em -isystem /lib/arm-none-eabi/include -I /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/Core/Inc -I /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Inc -I /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Include -I /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/boards/STM32CubeG4/Drivers/CMSIS/Include -L /lib/arm-none-eabi/newlib/thumb/v7e-m/nofp -L /lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp -Mroot=/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/main.zig -ffunction-sections -fdata-sections --gc-sections --cache-dir /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/.zig-cache --global-cache-dir /home/mirko/.cache/zig --name dumboard.elf -static --script /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/src/Core/STM32G431xx_FLASH.ld --zig-lib-dir /home/mirko/Documents/zig/zig-linux-x86_64-0.14.0-dev.984+ca012e5b6/lib/ --listen=- 
+Build Summary: 0/8 steps succeeded; 1 failed
+install transitive failure
++- install dumboard.elf transitive failure
+|  +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi 1 errors
++- install generated to dumboard.bin transitive failure
+|  +- objcopy generated transitive failure
+|     +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi (reused)
+|     +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi (reused)
++- install generated to dumboard.hex transitive failure
+|  +- objcopy generated transitive failure
+|     +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi (reused)
+|     +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi (reused)
++- install dumboard.elf transitive failure
+   +- zig build-exe dumboard.elf Debug thumb-freestanding-eabi (reused)
+error: the following build command failed with exit code 1:
+/home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/.zig-cache/o/aabcf287dc0c0fa64735722f129c38ae/build /home/mirko/Documents/zig/zig-linux-x86_64-0.14.0-dev.984+ca012e5b6/zig /home/mirko/Documents/zig/zig-linux-x86_64-0.14.0-dev.984+ca012e5b6/lib /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL /home/mirko/Documents/zig/ZIG-integration-for-STM32G4-HAL/.zig-cache /home/mirko/.cache/zig --seed 0xe04c76f1 -Za34836a552ad8434
